@@ -1,0 +1,16 @@
+{
+	"compatibility_date": "2025-10-08",
+	"main": "src/index.ts",
+	"name": "skogai-api",
+	"upload_source_maps": true,
+	"observability": {
+		"enabled": true
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "skogai-api-db",
+			"database_id": "5a3403c6-7128-4a1c-b667-b241e48d7cec"
+		}
+	]
+}
