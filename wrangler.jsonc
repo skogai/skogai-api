@@ -6,6 +6,9 @@
 	"observability": {
 		"enabled": true
 	},
+	"routes": [
+		{ "pattern": "api.skogai.se", "custom_domain": true }
+	],
 	"d1_databases": [
 		{
 			"binding": "DB",
