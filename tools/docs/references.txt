@@ -1,0 +1,25 @@
+# Argc Documentation and Examples Reference
+# Essential references only - optimized for token efficiency
+
+## Core Documentation (HIGHEST PRIORITY)
+READ/ARGC_AI_GUIDE.md
+docs/tool-development-guide.md
+
+## Secondary Documentation
+docs/argcfile.md
+docs/agent.md
+
+## Build System
+Argcfile.sh
+scripts/create-tool.sh
+
+## Best Agent Examples (Bash only, multi-command pattern)
+agents/argc-expert/tools.sh
+agents/blacksmith/tools.sh
+agents/git-flow/tools.sh
+
+## Best Tool Examples (Bash only, single-purpose pattern)
+tools/demo_sh.sh
+tools/execute_command.sh
+tools/fs_cat.sh
+tools/fs_write.sh
